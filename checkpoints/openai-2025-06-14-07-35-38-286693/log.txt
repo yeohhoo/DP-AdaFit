@@ -1,0 +1,11 @@
+Logging to checkpoints/openai-2025-06-14-07-35-38-286693
+creating model and diffusion...
+model argments: Namespace(dataset='cifar10', num_classes=-1, img_size=None, crop_size=None, train_path='/root/c_1206/cifar10/cifar10_l_train', val_path='/root/c_1206/cifar10/cifar10_l_test', proportion=1, schedule_sampler='uniform', lr=0.001, weight_decay=0.0, lr_anneal_steps=0, batch_size=16384, test_batch_size=512, ema_rate=0.9999, log_interval=5, save_interval=50, snapshot_freq=0, resume_checkpoint='/root/c_1206/DP-AdaFit/pretrained_models/model200000.pt', resume_step=-1, use_fp16=False, fp16_scale_growth=0.001, num_steps=200, use_pretrain=1, lora_r='9,9,9,9', image_size=32, num_channels=192, num_res_blocks=2, num_heads=1, num_heads_upsample=-1, num_head_channels=64, attention_resolutions='16', channel_mult='', dropout=0.3, class_cond=False, use_checkpoint=False, use_scale_shift_norm=True, resblock_updown=False, use_new_attention_order=False, learn_sigma=True, diffusion_steps=1000, noise_schedule='linear', timestep_respacing='', use_kl=False, predict_xstart=False, rescale_timesteps=False, rescale_learned_sigmas=False, sigma=2.5, delta=1e-05, epsilon=10, poisson_sampling=True, max_physical_batch_size=300, max_per_sample_grad_norm=0.001, timestep_mul=2, transform=2, type_of_augmentation='4dpdm', n_gpus_per_node=1, n_nodes=1, node_rank=0, master_address='127.0.0.1', master_port=6887, omp_n_threads=1, local_rank=0, global_rank=0, global_size=1, train_transform=['random', 'flip', 'center', 'simclr', 'beit', 'resize'], color_jitter=0.4, aa='rand-m9-mstd0.5-inc1', smoothing=0.1, train_interpolation='bicubic', reprob=0.25, remode='pixel', recount=1, resplit=False, target_rank=6, init_warmup=50, final_warmup=100, mask_interval=10, total_step=200, beta1=0.85, beta2=0.85)
+model.channel_mult: (1, 2, 2, 2)
+model number: 88545917.000
+model bias number: 68742.000
+model gamma number: 28.000
+model weight number: 86077440.000
+model size: 337.776MB
+all model number: 88545917.000
+all model size: 337.776MB

@@ -111,3 +111,12 @@ MODEL_FLAGS="--image_size 32 --num_channels 192 --num_res_blocks 2 --learn_sigma
 ```
 ### Evaluate
 You can evaluate the generated samples using the script we provided in `evaluations`. We also provide our [generated samples](https://drive.google.com/drive/folders/1gx7Vx7kvGa78taePSJ_wrkiyZrYPRwNI?usp=sharing) by the model training at timestep multiplicity 32 and augmentation multiplicity 4. And the privacy budget is at ($\epsilon$, $\delta$)=(10,10<sup>-5</sup>).
+## Cite
+@article{cai2025differentially,
+  title={Differentially private synthetic data generation for robust information fusion},
+  author={Cai, Xiaohong and Sun, Yi and Lin, Zhaowen and Li, Ripeng and Cai, Tianwei},
+  journal={Information Fusion},
+  pages={103373},
+  year={2025},
+  publisher={Elsevier}
+}
